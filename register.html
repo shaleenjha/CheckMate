@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="src/css/register.css">
+</head>
+<body>
+	<section id="containers">
+	<h1>Sign Up</h1>
+	<form>
+		<p>
+			<label id="lbl_first" for="first">First Name </label>
+			<input name="first" id="first" type="text" placeholder="First Name" required>
+		</p>	
+		<p>
+			<label id="lbl_last" for="last">Last Name </label>
+			<input name="last" id="last" type="text" placeholder="Last Name" required>
+		</p>
+
+		<p>
+			<label id="lbl_email">Email ID </label>
+			<input name="email" id="email" type="email" placeholder="abc@xyz.com" required>
+		</p>
+		<p>
+			<label id="lbl_pass">Password </label>
+			<input name="password" id="password" type="password" pattern=".{5,10}" required title="Paaword must be between 5 to 10 characters." required>
+		</p>
+
+		<p>
+			 <button id="submit">Submit</button></p>	
+		</p>
+	</form>
+	</section>
+</body>
+</html>
